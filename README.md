@@ -25,19 +25,18 @@ In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Man
 
 ## Objective
 Our aim is to perform in-depth data analysis to get insight into company sales performance. Specifically, we seek to answer the below questions…
-The company as a whole…
-How is the company’s overall sales performance is By year and by month
-Which are the top sales country,  top sales city, top-selling product class, and product
-How is the company’s overall sales performance by year and sales channel/sub-channel
-
-How distributors are contributing to business and who are our top customers. 
-How each of the sales team is performing? Who is the top sales rep? and which product class and product are each team selling most?
+* The company as a whole…
+  * How is the company’s overall sales performance is By year and by month
+  * Which are the top sales country,  top sales city, top-selling product class, and product
+  * How is the company’s overall sales performance by year and sales channel/sub-channel=
+* How distributors are contributing to business and who are our top customers. 
+* How each of the sales team is performing? Who is the top sales rep? and which product class and product are each team selling most?
 
 ## Dataset
-The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail Data. The field description of the raw data is given below. The raw dataset can be downloaded from the repo (pharma-data.csv).
+The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail Data. The field description of the raw data is given below. The raw dataset `pharma-data.csv` can be downloaded from the repo.
 
-|Field |Description|
-| ------------ | ------------ |
+|Field|Description|
+|------------|------------|
 |Distributor| Name of Wholesaler|
 |Customer Name| Name of customer|
 |City| Customer's city|
@@ -57,17 +56,15 @@ The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail D
 |Manager|Sales rep's Manager Name|
 |Sales Team|Sale rep's team|
 
-
 ## Solution Approach
 [TODO]
 
 ## How To Use
 ### Read-only access via the web (Recommended)
-Click the `View Report` button, and the report will open in a new tab in your browser. It's a fully interactive report; feel free to play with it. 
+Click [Pharmaceutical Sales Analysis Report]() link to open the report in your browser. It's a fully functional interactive report; feel free to experiment with it. 
 
 ### Full access via PowerBI desktop
 If you have PowerBI desktop installed, download the `pharma-analysis.pbix` from the repo and open it using PowerBI desktop. 
-
 
 ## License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
@@ -78,6 +75,6 @@ If you have PowerBI desktop installed, download the `pharma-analysis.pbix` from 
 [![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://datamatrix-ml.com/)
 
 ## Credits
-- Dataset sourced from [Foresight BI] (https://foresightbi.com.ng/practice-data/3-datasets-for-your-portfolio/)
+- Dataset sourced from [Foresight BI](https://foresightbi.com.ng/practice-data/3-datasets-for-your-portfolio/)
 
 [Back To The Top](#pharmaceutical-sales-analysis)
