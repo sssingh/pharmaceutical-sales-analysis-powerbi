@@ -89,13 +89,13 @@ The report has been split into two levels
 <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/exec-summary-page.png?raw=true"/>
 
 2. Detail level reports: 
-&nbsp;&nbsp;&nbsp;&nbsp;2a. **Distributor & Customer Analysis Report**: This is a more granular detailed report that analyses data from company distributors and customers perspective.
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2a. **Distributor & Customer Analysis Report**: This is a more granular detailed report that analyses data from company distributors and customers perspective.
  
  [TODO: commentary]
  
  <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/dist-cust-analysis-page.png?raw=true"/>
  
- &nbsp;&nbsp;&nbsp;&nbsp;2b. **Sales  Team Performance Report**: This is another detailed report that analyses the performance of company's sales team.
+ <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2b. **Sales  Team Performance Report**: This is another detailed report that analyses the performance of company's sales team.
  
  [TODO: commentary]
  
