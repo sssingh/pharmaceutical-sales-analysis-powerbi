@@ -1,7 +1,7 @@
 # Pharmaceutical Sales Analysis
 In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Manufacturing Company's raw sales data and draw some meaningful insights.
 
-<img src="https://datamatrix-ml.com/wp-content/uploads/2023/02/pharma-powerbi-feature-image.png" width="800" height="300" />
+<img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/pharma-title-image.png?raw=true" width="800" height="300" />
 
 ## Features
 ⚡PowerBI Desktop   
@@ -57,6 +57,28 @@ The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail D
 |Sales Team|Sale rep's team|
 
 ## Solution Approach
+### Exploratory Data Analysis (EDA) [pandas]
+To understand, be familiar with and check the sanity of the given data the first step is EDA. In this project the initial data exploration has been carried out using `pandas` python package. Here, in general, we are checking... 
+ * Presence of any missing values 
+ * Any unusual value (outliers) 
+ * Incorrect values (e.g. sales column we see -ve numbers)
+ * Determine `categocical` and `numeric` columns
+ * Determine dimentions of categorical columns and range of numeric columns
+Note that these steps can be performed using `PowerQuery Editor` and/or excel however `pandas` makes it much easier and faster, on top of that `pandas` can handle very large datasets.
+
+### Data Cleaning and Transform [PowerQuery Editor]
+The provided dataset was relatively clean and well organized hence not much work was required in this step, following steps were carried out...
+* Correct column heading provided
+* Correct data-type is assigned to columns
+
+### Data Model Creation [PowerQuery Editor]
+The provided data is in a single table format. The exploration revealed that it contains both categorical (`dimentions`) and numeric (`facts`) data. In data alaysis its a common practice to build a data-model where dimentions and facts are separated and then they are linked together by logical relationship to form a `star schema`. The resultant data-model is shown below..
+
+<img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/data-model.png?raw=true"/>
+
+the tables with prefix `DIM` are dimention table and `FACT` is fact table.
+
+### Report Creation [PowerBI Desktop]
 [TODO]
 
 ## How To Use
