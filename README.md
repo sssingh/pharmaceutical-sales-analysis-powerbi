@@ -95,7 +95,7 @@ The report has been split into two levels
  
  <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/dist-cust-analysis-page.png?raw=true"/>
  
- 2b. *Sales  Team Performance Report*: This is another detailed report that analyses the performance of company's sales team.
+ &nbsp;&nbsp;&nbsp;2b. *Sales  Team Performance Report*: This is another detailed report that analyses the performance of company's sales team.
  
  [TODO: commentary]
  
