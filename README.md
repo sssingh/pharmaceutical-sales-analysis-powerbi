@@ -66,6 +66,8 @@ To understand, be familiar with and check the sanity of the given data the first
  * Determine dimentions of categorical columns and range of numeric columns
 Note that these steps can be performed using `PowerQuery Editor` and/or excel however `pandas` makes it much easier and faster, on top of that `pandas` can handle very large datasets.
 
+EDA steps can be found in `data-exploration.ipynb` notebook.
+
 ### Data Cleaning and Transform [PowerQuery Editor]
 The provided dataset was relatively clean and well organized hence not much work was required in this step, following steps were carried out...
 * Correct column heading provided
