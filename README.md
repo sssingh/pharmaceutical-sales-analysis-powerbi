@@ -36,7 +36,7 @@ Our aim is to perform in-depth data analysis to get insight into company sales p
 The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail Data. The field description of the raw data is given below. The raw dataset `pharma-data.csv` can be downloaded from the repo.
 
 |Field|Description|
-|------------|------------|
+|:---|:--|
 |Distributor| Name of Wholesaler|
 |Customer Name| Name of customer|
 |City| Customer's city|
@@ -64,7 +64,7 @@ The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail D
 Click [Pharmaceutical Sales Analysis Report]() link to open the report in your browser. It's a fully functional interactive report; feel free to experiment with it. 
 
 ### Full access via PowerBI desktop
-If you have PowerBI desktop installed, download the `pharma-analysis.pbix` from the repo and open it using PowerBI desktop. 
+If you have PowerBI desktop installed, download the `pharma-analysis.pbix` from the repo and open it using PowerBI desktop. There is no need to download the raw dataset, the `pbix` files contains the complete normalized data-model.   
 
 ## License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
