@@ -33,7 +33,7 @@ Our aim is to perform in-depth data analysis to get insight into company sales p
 * How each of the sales team is performing? Who is the top sales rep? and which product class and product are each team selling most?
 
 ## Dataset
-The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail Data. The field description of the raw data is given below. The raw dataset `pharma-data.csv` can be downloaded from the repo.
+The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail Data. The field description of the raw data is given below. The raw dataset `pharma-data.csv` can be downloaded from [here](https://drive.google.com/file/d/1npKF_C2tG5psY-at4wvpEgh6T-7KHxEZ/view?usp=share_link)
 
 |Field|Description|
 |:---|:--|
