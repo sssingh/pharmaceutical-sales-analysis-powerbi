@@ -7,7 +7,7 @@ In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Man
 ⚡PowerBI Desktop   
 ⚡Query Editor  
 ⚡Multipage Fully Interactive Report    
-⚡Report published on the web
+⚡Report accessible on the web without PowerBI login
 
 ## Table of Contents
 - [Introduction](#introduction) 
@@ -88,7 +88,7 @@ The report has been split into two levels
 
 <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/exec-summary-page.png?raw=true"/>
 
-2. **Detail level reports**: 
+2. **Detail level reports**:  
 2a. *Distributor & Customer Analysis Report*: This is a more granular detailed report that analyses data from company distributors and customers perspective.
  
  [TODO: commentary]
