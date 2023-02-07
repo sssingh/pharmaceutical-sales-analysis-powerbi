@@ -81,7 +81,29 @@ The provided data is in a single table format. The exploration revealed that it 
 the tables with prefix `DIM` are dimention table and `FACT` is fact table.
 
 ### Report Creation [PowerBI Desktop]
-[TODO]
+The report has been split into two levels
+1. Summary level report (Executive Summary Report): This is a high-level report that shows the overall sales figures and elements in a glance.
+
+[TODO: commentary]
+
+<img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/exec-summary-page.png?raw=true"/>
+
+2. Detail level reports: 
+ 2a. Distributor & Customer Analysis: This is a more granular detailed report that analyses data from company distributors and customers perspective.
+ 
+ [TODO: commentary]
+ 
+ <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/dist-cust-analysis-page.png?raw=true"/>
+ 
+ 2b. Sales  Team Performance: This is another detailed report that analyses the performance of company's sales team.
+ 
+ [TODO: commentary]
+ 
+ <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/sales-team-perform-page.png?raw=true"/>
+
+## Conclusions
+
+[TODO: Conclusions]
 
 ## How To Use
 ### Read-only access via the web (Recommended)
