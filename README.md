@@ -16,7 +16,7 @@ In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Man
 - [Solution Approach](#solution-approach)
 - [How To Use](#how-to-use)
 - [License](#license)
-- [credit](#credits)
+- [Credit](#credits)
 - [Get in touch](#get-in-touch)
 
 
@@ -82,20 +82,20 @@ the tables with prefix `DIM` are dimention table and `FACT` is fact table.
 
 ### Report Creation [PowerBI Desktop]
 The report has been split into two levels
-1. Summary level report (**Executive Summary Report**): This is a high-level report that shows the overall sales figures and elements in a glance.
+1. **Summary level report** (*Executive Summary Report*): This is a high-level report that shows the overall sales figures and elements in a glance.
 
 [TODO: commentary]
 
 <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/exec-summary-page.png?raw=true"/>
 
-2. Detail level reports: 
-<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2a. **Distributor & Customer Analysis Report**: This is a more granular detailed report that analyses data from company distributors and customers perspective.
+2. ** Detail level reports**: 
+2a. *Distributor & Customer Analysis Report*: This is a more granular detailed report that analyses data from company distributors and customers perspective.
  
  [TODO: commentary]
  
  <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/dist-cust-analysis-page.png?raw=true"/>
  
- <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2b. **Sales  Team Performance Report**: This is another detailed report that analyses the performance of company's sales team.
+ 2b. *Sales  Team Performance Report*: This is another detailed report that analyses the performance of company's sales team.
  
  [TODO: commentary]
  
