@@ -1,7 +1,7 @@
 <a href="https://app.powerbi.com/view?r=eyJrIjoiN2RkNGNjOTMtYmMxOC00NzY3LTg0OGEtMmY4YThlNWM5ZmMyIiwidCI6ImFlZDI3MWNkLTYzOTgtNDllZi1hOWNmLTQ4NDIyMTAxZTE0ZSIsImMiOjEwfQ%3D%3D&amp;pageName=ReportSection" target="_blank" rel="noopener"> <img class="pbi" src="https://datamatrix-ml.com/wp-content/uploads/2023/02/Power_BI_small_Logo.png" alt="Click here to open report" title="View PowerBI Report" style="width:45px;height:45px;">
 View PowerBI Report</a>
 
-# Pharmaceutical Sales Analysis
+<h1 id="#Pharmaceutical-Sales-Analysis">Pharmaceutical Sales Analysis</h1>
 In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Manufacturing Company's raw sales data and draw some meaningful insights.
 
 <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/pharma-title-image.png?raw=true" width="800" height="300" />
@@ -17,16 +17,17 @@ In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Man
 - [Objective](#objective)
 - [Dataset](#dataset)
 - [Solution Approach](#solution-approach)
-- [How To Use](#how-to-use)
-- [License](#license)
-- [Credits](#credits)
-- [Get in touch](#get-in-touch)
+- [Conclusions](#Conclusions)
+- [How To Use](#How-To-Use)
+- [License](#License)
+- [Credits](#Credits)
+- [Get in touch](#Get-in-touch)
 
 
 <h2 id="#introduction">Introduction</h2>
 `Datamatrix-ml Pharmaceuticals` is one of the leading Pharmaceutical Manufacturing companies with a global presence. Their Markets are divided into different regions across the world. One of those regions manages the German and Poland Markets. But the company does not sell directly to customers. Instead, they work with a couple of Distributors in all their regions. They have an agreement with each distributor to share their Sales Data with them. This is to enable them to gain insights up to the retail level. 
 
-## Objective
+<h2 id="#objective">Objective</h2>
 Our aim is to perform in-depth data analysis to get insight into company sales performance. Specifically, we seek to answer the below questions…
 * The company as a whole…
   * How is the company’s overall sales performance is By year and by month
@@ -35,7 +36,7 @@ Our aim is to perform in-depth data analysis to get insight into company sales p
 * How distributors are contributing to business and who are our top customers. 
 * How each of the sales team is performing? Who is the top sales rep? and which product class and product are each team selling most?
 
-## Dataset
+<h2 id="#dataset">Dataset</h2>
 The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail Data. The field description of the raw data is given below. The raw dataset `pharma-data.csv` can be downloaded from [here](https://drive.google.com/file/d/1npKF_C2tG5psY-at4wvpEgh6T-7KHxEZ/view?usp=share_link)
 
 |Field|Description|
@@ -59,7 +60,7 @@ The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail D
 |Manager|Sales rep's Manager Name|
 |Sales Team|Sale rep's team|
 
-## Solution Approach
+<h2 id="#solution-approach">Solution Approach</h2>
 ### Exploratory Data Analysis (EDA) [pandas]
 To understand, be familiar with and check the sanity of the given data, the first step is EDA. In this project, the initial data exploration has been carried out using `pandas` python package. Here, in general, we are checking... 
  * Presence of any missing values 
@@ -104,26 +105,26 @@ The report has been split into two levels
  
  <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/sales-team-perform-page.png?raw=true"/>
 
-## Conclusions
+<h2 id="#Conclusions">Conclusions</h2>
 
 [TODO: Conclusions]
 
-## How To Use
+<h2 id="#How-To-Use">How To Use</h2>
 ### Read-only access via the web (Recommended)
 [Open and view the report](https://app.powerbi.com/view?r=eyJrIjoiN2RkNGNjOTMtYmMxOC00NzY3LTg0OGEtMmY4YThlNWM5ZmMyIiwidCI6ImFlZDI3MWNkLTYzOTgtNDllZi1hOWNmLTQ4NDIyMTAxZTE0ZSIsImMiOjEwfQ%3D%3D&pageName=ReportSection) . It's a fully functional interactive report; feel free to experiment with it. 
 
 ### Full access via PowerBI desktop
 If you have PowerBI desktop installed, download the `pharma-analysis.pbix` from the repo and open it using PowerBI desktop. There is no need to download the raw dataset; the `pbix` files contain the complete normalized data model.   
 
-## License
+<h2 id="#License">License</h2>
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## Get in touch
+<h2 id="#Get-in-touch">Get in touch</h2>
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sssingh)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_sssingh)
 [![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://datamatrix-ml.com/)
 
-## Credits
+<h2 id="#Credits">Credits</h2>
 - Dataset sourced from [Foresight BI](https://foresightbi.com.ng/practice-data/3-datasets-for-your-portfolio/)
 
 [Back To The Top](#pharmaceutical-sales-analysis)
