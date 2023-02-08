@@ -1,4 +1,4 @@
-a href="https://app.powerbi.com/view?r=eyJrIjoiN2RkNGNjOTMtYmMxOC00NzY3LTg0OGEtMmY4YThlNWM5ZmMyIiwidCI6ImFlZDI3MWNkLTYzOTgtNDllZi1hOWNmLTQ4NDIyMTAxZTE0ZSIsImMiOjEwfQ%3D%3D&amp;pageName=ReportSection" target="_blank" rel="noopener">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiN2RkNGNjOTMtYmMxOC00NzY3LTg0OGEtMmY4YThlNWM5ZmMyIiwidCI6ImFlZDI3MWNkLTYzOTgtNDllZi1hOWNmLTQ4NDIyMTAxZTE0ZSIsImMiOjEwfQ%3D%3D&amp;pageName=ReportSection" target="_blank" rel="noopener">
 <img class="pbi" src="https://datamatrix-ml.com/wp-content/uploads/2023/02/Power_BI_small_Logo.png" alt="Click here to open report" title="View PowerBI Report" style="width:45px;height:45px;">
 View PowerBI Report</a>
 
