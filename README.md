@@ -23,7 +23,7 @@ In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Man
 - [Get in touch](#get-in-touch)
 
 
-## Introduction
+<h2 id="#introduction">Introduction</h2>
 `Datamatrix-ml Pharmaceuticals` is one of the leading Pharmaceutical Manufacturing companies with a global presence. Their Markets are divided into different regions across the world. One of those regions manages the German and Poland Markets. But the company does not sell directly to customers. Instead, they work with a couple of Distributors in all their regions. They have an agreement with each distributor to share their Sales Data with them. This is to enable them to gain insights up to the retail level. 
 
 ## Objective
