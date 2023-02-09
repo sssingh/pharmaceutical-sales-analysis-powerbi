@@ -87,8 +87,6 @@ the tables with the prefix `DIM` are dimension tables, and `FACT` is the fact ta
 The report has been split into two levels
 1. **Summary level report** (*Executive Summary Report*): This is a high-level report that shows the overall sales figures and elements at a glance.
 
-[TODO: commentary]
-
 <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/exec-summary-page.png?raw=true"/>
 
 2. **Detail level reports**:  
