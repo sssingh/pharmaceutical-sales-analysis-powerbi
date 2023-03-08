@@ -1,16 +1,16 @@
-<a href="https://app.powerbi.com/view?r=eyJrIjoiN2RkNGNjOTMtYmMxOC00NzY3LTg0OGEtMmY4YThlNWM5ZmMyIiwidCI6ImFlZDI3MWNkLTYzOTgtNDllZi1hOWNmLTQ4NDIyMTAxZTE0ZSIsImMiOjEwfQ%3D%3D&amp;pageName=ReportSection" target="_blank" rel="noopener"> <img class="pbi" src="https://datamatrix-ml.com/wp-content/uploads/2023/02/Power_BI_small_Logo.png" alt="Click here to open report" title="View PowerBI Report" style="width:45px;height:45px;">
-View PowerBI Report</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiN2RkNGNjOTMtYmMxOC00NzY3LTg0OGEtMmY4YThlNWM5ZmMyIiwidCI6ImFlZDI3MWNkLTYzOTgtNDllZi1hOWNmLTQ4NDIyMTAxZTE0ZSIsImMiOjEwfQ%3D%3D&amp;pageName=ReportSection" target="_blank" rel="noopener"> <img class="pbi" src="https://datamatrix-ml.com/wp-content/uploads/2023/02/Power_BI_small_Logo.png" alt="Click here to open the interactive PowerBI report" title="Click here to open the interactive PowerBI report" style="width:45px;height:45px;">
+Click here to open the interactive PowerBI report</a>
 
 # Pharmaceutical Sales Analysis
 In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Manufacturing Company's raw sales data and draw some meaningful insights.
 
-<img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/pharma-title-image.png?raw=true" width="800" height="300" />
+<img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/pharma-title-image.png?raw=true" width="1000" height="500" />
 
 ## Features
 ⚡PowerBI Desktop   
-⚡Query Editor  
-⚡Multipage Fully Interactive Report    
-⚡Report accessible on the web without PowerBI login
+⚡PowerQuery Editor [For data-transformation/data-modeling]  
+⚡PowerBI Service [For making the report accessible on the web without PowerBI login]  
+⚡Multipage fully Interactive Report [For drawing insights and analysis] 
 
 ## Table of Contents
 - [Introduction](#introduction) 
@@ -24,19 +24,23 @@ In this ‘Data Analysis’ project, we’ll analyze a global Pharmaceutical Man
 
 
 ## Introduction
-`Datamatrix-ml Pharmaceuticals` is one of the leading Pharmaceutical Manufacturing companies with a global presence. Their Markets are divided into different regions across the world. One of those regions manages the German and Poland Markets. But the company does not sell directly to customers. Instead, they work with a couple of Distributors in all their regions. They have an agreement with each distributor to share their Sales Data with them. This is to enable them to gain insights up to the retail level. 
+* `Datamatrix-ml Pharmaceuticals` is one of the leading Pharmaceutical Manufacturing companies with a global presence. 
+* Their Markets are divided into different regions across the world. One of those regions manages the German and Poland Markets. 
+* Company does not sell directly to customers. Instead, they work with a couple of Distributors in all their regions. 
+* They have an agreement with each distributor to share their Sales Data with them. This is to enable them to gain insights up to the retail level. This data is made available to them in CSV format.
 
-## Objective
-Our aim is to perform in-depth data analysis to get insight into company sales performance. Specifically, we seek to answer the below questions…
-* The company as a whole…
-  * How is the company’s overall sales performance is By year and by month
-  * Which are the top sales country,  top sales city, top-selling product class, and product
-  * How is the company’s overall sales performance by year and sales channel/sub-channel=
-* How distributors are contributing to business and who are our top customers. 
-* How each of the sales team is performing? Who is the top sales rep? and which product class and product are each team selling most?
+## Objectives
+We have been asked by the firm to perform in-depth data analysis to get insight into company sales performance. Specifically below are the key requirements to be satisfied…
+|Requirement ID|For Whom|Requirement Description|
+|:--|:---|:--|
+DM-DA01-REQ-1|Executive Committee|A high-level overview showing `company’s overall sales` performance by `year` by `month`, by `customer cities`, by `channel`, by `sub-channel`. Should be able to quickly see `top drug class by sales`, `top drug by sales`, `top customer city by sales`
+DM-DA01-REQ-2|Sales Manager/Sales Rep|A detailed overview showing sales `by distributors and product` , `top 5 product, customer and cities`, sales numbers split by `channels and sub-channels`
+DM-DA01-REQ-3|Head of Sales|A detailed report of `sales by sales-team split by product` and `sales by sales-team split by product class`. <br> A detailed analysis showing `Top sales managers`, `Top sales reps`, `Top product split by sales team contributions` answering. <br> An ability to filter/slice data by `year` and `months`   
+
+***Table-1 : Requirements***
 
 ## Dataset
-The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail Data. The field description of the raw data is given below. The raw dataset `pharma-data.csv` can be downloaded from [here](https://drive.google.com/file/d/1npKF_C2tG5psY-at4wvpEgh6T-7KHxEZ/view?usp=share_link)
+The dataset is sourced from each distributor. It contains Pharmaceutical Manufacturing Company’s Wholesale-Retail Data. The field description of the raw data is given below. The raw dataset `pharma-data.csv` can be downloaded from [here](https://drive.google.com/file/d/1npKF_C2tG5psY-at4wvpEgh6T-7KHxEZ/view?usp=share_link)
 
 |Field|Description|
 |:---|:--|
@@ -58,8 +62,18 @@ The dataset contains Pharmaceutical Manufacturing Company’s Wholesale-Retail D
 |Name of Sales Rep|Name of the Sales rep who facilitated the sale|
 |Manager|Sales rep's Manager Name|
 |Sales Team|Sale rep's team|
+***Table-2 : Data Definition***
 
 ## Solution Approach
+
+|Requirement ID|Solution ID|Proposed Solution|
+|:--|:---|:--|
+|DM-DA01-REQ-1|DM-DA01-SOL-1|An `Executive Summary` PowerBI dashboard/report page will be built to show a high-level overview of sales data in form of interactive visuals as per the requirements. A `year` filter will be provided to filter the data by a particular or combination of year|
+|DM-DA01-REQ-2|DM-DA01-SOL-2|A `Distibutor & Customer Analysis` PowerBI dashborad/report page will be provided with interactive visuals showing data as per the requirement|
+|DM-DA01-REQ-3|DM-DA01-SOL-3|A `Sales Team Performance` PowerBI dashborad/report page will be provided with interactive visuals showing data as per the requirement. `year` and `month` slicers will be provided to slice/filter data by year and/or months|
+
+***Table-3 : Proposed Solution***
+
 ### Exploratory Data Analysis (EDA) [pandas]
 To understand, be familiar with and check the sanity of the given data, the first step is EDA. In this project, the initial data exploration has been carried out using `pandas` python package. Here, in general, we are checking... 
  * Presence of any missing values 
@@ -76,25 +90,29 @@ The provided dataset was relatively clean and well organized; hence not much wor
 * Correct column heading provided
 * Correct data type is assigned to columns
 
-### Data Model Creation [PowerQuery Editor]
-The provided data is in a single table format. The exploration revealed that it contains both categorical (`dimensions) and numeric (`facts`) data. Building a data model where dimensions and facts are separated is common in data analysis. Then they are linked together by logical relationship to form a `star schema.` The resultant data model is shown below...
+### Data Model Creation [PowerBI Desktop]
+* The provided data is in a single table format. The exploration revealed that it contains both categorical (`dimensions`) and numeric (`facts`) data. 
+* We build a data model where dimensions and facts are separated then they are linked together by logical relationship to form a `star schema.` The resultant data model is shown below...
 
 <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/data-model.png?raw=true"/>
 
 the tables with the prefix `DIM` are dimension tables, and `FACT` is the fact table.
 
 ### Report Creation [PowerBI Desktop]
-The report has been split into two levels
-1. **Summary level report** (*Executive Summary Report*): This is a high-level report that shows the overall sales figures and elements at a glance.
+Three interactive reports/dashboard (report pages) will be created to implement the proposed solution. Refer to [Table-3: Proposed Solution](#solution-approach) for detailed requirements and corresponding proposed solution. 
+
+#### 1. Executive Summary Report [DM-DA01-SOL-1]
+This is a high-level report that shows the overall sales figures and elements at a glance.
 
 <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/exec-summary-page.png?raw=true"/>
 
-2. **Detail level reports**:  
-2a. *Distributor & Customer Analysis Report*: This is a more granular detailed report that analyses data from the company distributors' and customers' perspectives.
+#### 2. Distributor & Customer Analysis Report [DM-DA01-SOL-2]
+This is a more granular detailed report that analyses data from the company distributors' and customers' perspectives.  Sales by distributor can be drilled down to specific product level.
  
  <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/dist-cust-analysis-page.png?raw=true"/>
  
- &nbsp;&nbsp;&nbsp;2b. *Sales  Team Performance Report*: This is another detailed report that analyses the performance of the company's sales team.
+ #### 3. Sales  Team Performance Report [DM-DA01-SOL-3] 
+ This is another detailed report that analyses the performance of the company's sales team. Sales by sales-team can be drilled down to product-class and specific product level.
  
  <img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/sales-team-perform-page.png?raw=true"/>
 
