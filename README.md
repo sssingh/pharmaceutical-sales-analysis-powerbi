@@ -64,7 +64,7 @@ The dataset is sourced from each distributor. It contains Pharmaceutical Manufac
 |Sales Team|Sale rep's team|
 ***Table-2 : Data Definition***
 
-## Solution Approach
+## Solution Approach 
 
 |Requirement ID|Solution ID|Proposed Solution|
 |:--|:---|:--|
