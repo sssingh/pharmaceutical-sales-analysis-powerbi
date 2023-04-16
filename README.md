@@ -118,7 +118,7 @@ This more granular detailed report analyses data from the company distributors' 
 ## How To Use
 ### Read-only direct access via the web (Recommended)
 [![Open In Power Bi](https://img.shields.io/badge/open_in_power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiN2RkNGNjOTMtYmMxOC00NzY3LTg0OGEtMmY4YThlNWM5ZmMyIiwidCI6ImFlZDI3MWNkLTYzOTgtNDllZi1hOWNmLTQ4NDIyMTAxZTE0ZSIsImMiOjEwfQ%3D%3D&amp;pageName=ReportSection)  
-Explore fully functional report with native PowerBI interactive experince.
+Explore the fully functional report with native PowerBI interactive experience.
 
 ### Full access via PowerBI desktop
 If you have PowerBI desktop installed, download the `pharma-analysis.pbix` from the repo and open it using PowerBI desktop. There is no need to download the raw dataset; the `pbix` files contain the complete normalized data model, feel free to modify and experiment with it.   
@@ -129,7 +129,7 @@ If you have PowerBI desktop installed, download the `pharma-analysis.pbix` from 
 ## Get in touch
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sssingh)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_sssingh)
-[![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://datamatrix-ml.com/)
+[![website](https://img.shields.io/badge/web_site-8B5BE8?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.datamatrix-ml.com)
 
 ## Credits
 - Dataset sourced from [Foresight BI](https://foresightbi.com.ng/practice-data/3-datasets-for-your-portfolio/)
